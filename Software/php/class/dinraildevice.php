@@ -27,9 +27,9 @@
 
 class DinRailDevice
 {
-  private static $link;
-  private $devType;
-  private $i2cAddr;
+	private static $link;
+        private $devType;
+        private $i2cAddr;
   
 	function __construct(&$link, $devType)
 	{
