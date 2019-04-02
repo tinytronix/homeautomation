@@ -14,7 +14,8 @@ gains access to the I2C Bus. It then can read AD values and switch Relais in ord
 alive and prevent damages to house installation.
 
 Analog Module:
-- 16 AD channels (1 can be configured to read back sensor supply voltage for safety reasons)
+- 16 AD channels
+- channel 16 can be configured to read back sensor supply voltage
 - signal conditioning for each channel with 16 Rail-2-Rail OP Amps
 - maximum of 2 analog modules per controller (I2C adressing constraint)
 
