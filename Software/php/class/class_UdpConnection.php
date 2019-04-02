@@ -4,23 +4,23 @@ class UdpConnection
   private $isConnected = false;
   private $reconnectTimeout;
   private $hSocket = 0;
- 	private $port;
- 	private $ip;
- 	private $devType;
+  private $port;
+  private $ip;
+  private $devType;
  	
 	function __construct($ip, $port, $devType=0)
 	{
 		$this->port = $port;
 		$this->ip = $ip;
 		$this->devType = $devType;
-    $this->isConnected = false;
-    $this->reconnectTimeout = 0;
-    $this->Connect();
+     		$this->isConnected = false;
+    		$this->reconnectTimeout = 0;
+    		$this->Connect();
 	}
 
 	function __destruct()
 	{
-    $this->Disconnect();
+    		$this->Disconnect();
 	}
 	
 	function GetDevType()
@@ -73,7 +73,7 @@ class UdpConnection
 			$this->isConnected = true;
 			$this->reconnectTimeout = 0;
   	}
-	}
+  }
 
   function Send($request, $len)
   {
