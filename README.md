@@ -27,3 +27,5 @@ LoRa:
 - The LoRa module bridges I2C ommands from the controller module to modules located in the garden.
 - It will later (planned for future extensions!) also send data to small devices which can be placed behind wall power outlets or 
 wall switches.
+- On the photos you may see a little hand soldered wire. This is due to some misinterpretation of the datasheet.
+The schematic is already the corrected version!
