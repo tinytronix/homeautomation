@@ -23,6 +23,11 @@ Switching Module:
 - 11 Relais outputs 230VAC, 5A max.
 - maximum of 8 switching modules per controller (I2C adressing constraint) 
 
+Switching Module Typ B:
+- can control shutters and window blinds
+- two channels each up/down
+- software prevents switching up/down at the same time
+
 LoRa:
 - The LoRa module bridges I2C ommands from the controller module to modules located in the garden.
 - It will later (planned for future extensions!) also send data to small devices which can be placed behind wall power outlets or 
