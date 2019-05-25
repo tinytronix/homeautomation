@@ -24,6 +24,6 @@ Switching Module:
 - maximum of 8 switching modules per controller (I2C adressing constraint) 
 
 LoRa:
-The LoRa module bridges I2C ommands from the controller module to modules located in the garden.
-It will later also send data to small devices which can be placed behind wall power outlets or 
+- The LoRa module bridges I2C ommands from the controller module to modules located in the garden.
+- It will later (planned for future extensions!) also send data to small devices which can be placed behind wall power outlets or 
 wall switches.
