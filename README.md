@@ -29,4 +29,4 @@ LoRa:
 wall switches.
 - On the photos you may see a little hand soldered wire. This is due to some misinterpretation of the datasheet ;)
 The schematic is already the corrected version and will work!
-- I created a Arduino library (here: https://github.com/tinytronix/SX126x) for the LoRa Modem module DRF1268T. The modem modle can be sourced from http://www.dorji.com (SX126x based). The library is based on Semtec sample sources and RadioLib sources. Please see my repo named SX126x. The chip is quite new on the market and said to have several improvements regarding HopeRF modules.
+- I created a Arduino library (here: https://github.com/tinytronix/SX126x) for the LoRa Modem module DRF1268T. The modem module can be sourced from http://www.dorji.com (SX126x based). The library is based on Semtec sample sources and RadioLib sources. Please see my repo named SX126x. The chip is quite new on the market and said to have several improvements regarding HopeRF modules.
