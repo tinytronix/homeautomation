@@ -28,18 +28,18 @@ PORT = 49220
 #---------------------------------------------------------------------------------------------------------------------------------------
 # supported devices 
 #---------------------------------------------------------------------------------------------------------------------------------------
-DEVICE_CLASS								= 0xFF000000
+DEVICE_CLASS				= 0xFF000000
 DEVICE_CLASS_CONTROLLER			= 0x01000000
 DEVICE_CLASS_SCHALTMODUL		= 0x02000000
 DEVICE_CLASS_ANALOGMODUL		= 0x03000000
 
-DEVICE_SUBCLASS							= 0x00FF0000
+DEVICE_SUBCLASS				= 0x00FF0000
 
-DEVICE_TYPE									= 0x0000FF00
-DEVICE_TYPE_A								= 0x00000100
-DEVICE_TYPE_B								= 0x00000200
+DEVICE_TYPE				= 0x0000FF00
+DEVICE_TYPE_A				= 0x00000100
+DEVICE_TYPE_B				= 0x00000200
 
-DEVICE_ADDRESS							= 0x000000FF
+DEVICE_ADDRESS				= 0x000000FF
 	
 DEVICE_CONTROLLER_A_ID01		= DEVICE_CLASS_CONTROLLER  | DEVICE_TYPE_A | 0x01		# Hutschienencontroller_A
   
