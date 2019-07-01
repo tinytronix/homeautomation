@@ -1,5 +1,5 @@
 #!/usr/bin/python
-
+ 
 # Voraussetzungen
 # sudo apt-get update
 # sudo apt-get install i2c-tools
