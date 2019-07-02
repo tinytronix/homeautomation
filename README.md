@@ -1,5 +1,6 @@
 # Home Automation Device Overview
 An extensive and expandible home automation hardware and software system.
+Contains gerber files for allmodules, part list and software examples.
 
 From left to right: Switching module, Analog module,controller module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
