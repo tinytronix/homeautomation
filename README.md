@@ -1,4 +1,4 @@
-# homeautomation
+# Home Automation Device Overview
 An extensive and expandible home automation hardware and software system.
 
 From left to right: Switching module, Analog module,controller module:
