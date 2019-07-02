@@ -1,1 +1,1 @@
-This module contains Relais for two shutters or window blinds and one extra Relais.
+This module contains Relais for three shutters or window blinds (3x UP/DOWN) and one extra Relais.
