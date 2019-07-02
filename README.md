@@ -2,7 +2,7 @@
 An extensive and expandible home automation hardware and software system.
 Contains ready to use gerber files for pcb production, part list and software examples.
 
-Upper row: Connector boards for I2C and Power 
+Upper row: Connector boards for I2C and Power <br>
 Lower row left to right: Switching module, Analog module,controller module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
 
