@@ -1,7 +1,7 @@
 # homeautomation
 An extensive and expandible home automation hardware and software system.
 
-Controller module, Analog module and Switching module:
+From left to right: Switching module, Analog module,controller module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
 
 The modules finally integrated in the fuse box:
