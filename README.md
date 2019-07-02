@@ -1,6 +1,12 @@
 # homeautomation
 several din rail modules such as Analog inputs, Relays Switching outputs, RS232, 1wire, I2C, LoRa
 
+Controller module, Analog module and Switching module:
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltschrank.JPG)
+
+The same modules finally integrated in the fuse box:
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
+
 Controller Module with watchdog:
 - Raspberry B+ (read only file system)
 - 2 Relais
