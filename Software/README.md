@@ -14,3 +14,6 @@ The php program test.php contains the control logic examples for switching actor
 3. Start the python scripts in background 
 4. in test.php modify __PHP_BASE_DIR__ to where the php classes are located
 5. run the test.php example
+
+## Watchdog
+The controller module needs a programmed watchdog controller. Else the Raspberry I2C interface is being disabled. The watchdog is toggled by Raspberry devicesrv.py. If this program does not run on the Raspi, the watchdog controller disables I2C from Raspberry and takes control over the I2C bus.
