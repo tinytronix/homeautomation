@@ -2,7 +2,8 @@
 An extensive and expandible home automation hardware and software system.
 Contains ready to use gerber files for pcb production, part list and software examples.
 
-From left to right: Switching module, Analog module,controller module:
+Upper row: Connector boards for I2C and Power 
+Lower row left to right: Switching module, Analog module,controller module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
 
 The modules finally integrated in the fuse box:
@@ -22,8 +23,8 @@ alive and prevent damages to house installation.
 
 ## Analog Module:
 - 16 AD channels
-- channel 16 can be configured to read back sensor supply voltage
 - signal conditioning for each channel with 16 Rail-2-Rail OP Amps
+- channel 16 can be configured to read back sensor supply voltage
 - maximum of 2 analog modules per controller (I2C adressing constraint)
 
 ## Switching Module Typ A:
