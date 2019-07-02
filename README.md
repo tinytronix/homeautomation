@@ -31,8 +31,8 @@ alive and prevent damages to house installation.
 - maximum of 8 switching modules per controller (I2C adressing constraint) 
 
 ## Switching Module Typ B:
-- can control shutters and window blinds (3x UP/DOWN)
-- two channels each up/down
+- can control shutters and window blinds
+- three channels each up/down
 - software prevents switching up/down at the same time
 
 ## LoRa Gateway:
