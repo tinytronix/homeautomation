@@ -37,5 +37,7 @@ alive and prevent damages to house installation.
 - software prevents switching up/down at the same time
 
 ## LoRa Gateway:
-- The LoRa (https://en.wikipedia.org/wiki/LoRa) module forwards I2C commands via spread spectrum radio to modules located somewhere in the house or garden.
+- A module to forwards I2C commands via wireless spread spectrum radio data transmission to modules located somewhere in the house or garden.
+- LoRa is a wireless spread spectrum radio data transmission technique. See https://en.wikipedia.org/wiki/LoRa
+- This module creates a private LoRa home automation network. The software does not support LoRaWAN. 
 
