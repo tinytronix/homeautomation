@@ -1,11 +1,13 @@
-All modules can be accessed using python.
+Software example on how to controll sensors, actors. 
 
-For my use case I decided to write a driver in python which
-can be accessed via UDP on Port 49220 on the Raspi controller module.
+The php modules contain the sensor/actor control logic.
+The two python scripts are UDP-servers that interface to the 
+php modules and to the hardware.
 
-Usage:
-Copy devicesrv.py to the Raspi
-go to the directory where devicesrv.py was copied to
-start the driver: python .\devicesrv.py
+Therefore the python scripts have to run in background permanently.
 
-Then start the php test script test.php
+## How to start:
+1. Activate the I2C interface on the Raspberry
+2. When using LoRa communication set I2C to 25kHz (RPi I2C stretching bug!!!)
+3. Start the python scripts in background 
+4. run the test.php example
