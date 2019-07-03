@@ -9,7 +9,7 @@ OEM: https://www.h-tronic.de <br>
 
 ### Connector clamps:
 AKL 073-03 Fahrstuhlklemme, 3-pol<br>
-AKL 073-02 Fahrstuhlklemme, 3-pol<br>
+AKL 073-02 Fahrstuhlklemme, 2-pol<br>
 https://www.reichelt.de<br>
 
 ### Other parts
