@@ -37,7 +37,7 @@ alive and prevent damages to house installation.
 - software prevents switching up/down at the same time
 
 ## LoRa Gateway:
-- A module to forwards I2C command from the Raspberry Controller module via wireless spread spectrum radio data transmission to modules located somewhere in the house or garden.
+- A module to forwards commands (I2C or RS232 at 3,3V/5V) from the Raspberry Controller module via wireless spread spectrum radio data transmission to modules located somewhere in the house or garden.
 - LoRa is a highly reliable wireless spread spectrum radio data transmission technique. See https://en.wikipedia.org/wiki/LoRa
 - This module creates a private LoRa home automation network. The software does not support LoRaWAN. 
 
