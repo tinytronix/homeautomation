@@ -4,7 +4,7 @@
   require_once(__PHP_BASE_DIR__.'/class/class_dinraildevice.php');
   require_once(__PHP_BASE_DIR__.'/class/class_actor.php');
   require_once(__PHP_BASE_DIR__.'/class/class_sensor_adc.php');
-  
+   
   //Verbindung zu Controller und den angeschlossenen Modulen aufbauen (devicesrv.py muss laufen!)
   $ctrlLink 	   = new UdpConnection("127.0.0.1", 49220);
   $loraLink 	   = new UdpConnection("127.0.0.1", 49230);
