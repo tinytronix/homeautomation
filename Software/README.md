@@ -1,12 +1,12 @@
 Software example on how to control sensors, actors and send LoRa data. 
 
 ## How does it work:
-The php modules under php/class contain the sensor/actor control logic including error handling,
-automatic reconnect and much more basic functionality.<br>
 The two python scripts are UDP-servers that interface to the php modules and to the hardware.
 Therefore the python scripts have to run in background permanently.<br>
+The php modules under php/class contain the sensor/actor control logic including error handling,
+automatic reconnect and much more basic functionality.<br>
 
-The php program test.php contains the control logic examples for switching actors and reading sensors.
+The php program test.php and temperature.php contain examples on how to use the php classes for switching actors and reading sensors.
 
 ## How to start:
 1. Activate the I2C interface on the Raspberry
