@@ -19,4 +19,4 @@ The php program test.php and temperature.php contain examples on how to use the 
 5. run the test.php example
 
 ## Watchdog
-The controller module needs a programmed watchdog controller. Else the Raspberry I2C interface is being disabled. The watchdog is toggled by Raspberry devicesrv.py. If this program does not run on the Raspi, the watchdog controller disables I2C from Raspberry and takes control over the I2C bus.
+The controller module needs a programmed watchdog controller (https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_A/WatchdogController). Else the Raspberry I2C interface is being disabled. The watchdog is toggled by Raspberry devicesrv.py. If this program does not run on the Raspi, the watchdog controller disables I2C from Raspberry and takes control over the I2C bus.
