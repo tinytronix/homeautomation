@@ -7,7 +7,7 @@ Lower row left to right: Switching module, Analog module, Controller module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
 
 The modules finally integrated in the fuse box:
-![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltschrank.JPG)
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltschrank2.JPG)
 
 ## Controller Module with watchdog:
 - Raspberry B+ (read only file system)
