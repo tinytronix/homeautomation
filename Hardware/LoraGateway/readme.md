@@ -1,5 +1,5 @@
 This is a module that extends the home automation to speak LoRa (not LoRaWAN).
-LoRa is a wireless spread spectrum radio data transmission technique.
+LoRa is a wireless spread spectrum radio data transmission technique for ISM band at 868MHz or 433MHz.
 See https://en.wikipedia.org/wiki/LoRa
 
 Interfaces for sending and receiving LoRa data:
