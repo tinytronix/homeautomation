@@ -21,6 +21,11 @@ The watchdog controller needs to be triggered by Raspi. If Raspi hangs or crashe
 gains access to the I2C Bus. It then can read AD values and switch Relais in order to keep vital functions
 alive and prevent damages to house installation.
 
+## Module Bus
+This is the common interface that every module needs. The module bus distributes 3,3V and 5V power supply and the
+I2C connection. Each module needs to implement a module bus input and a module bus output.
+So all DIN rail modules can be coupled and arbitrary extensions are possible.
+
 ## Analog Module:
 - 16 AD channels
 - signal conditioning for each channel with 16 Rail-2-Rail OP Amps
@@ -41,4 +46,15 @@ alive and prevent damages to house installation.
 - works on ISM Band at 433MHz or 868MHz
 - LoRa is a highly reliable wireless spread spectrum radio data transmission technique. See https://en.wikipedia.org/wiki/LoRa
 - This module creates a private LoRa home automation network. The software does not support LoRaWAN. 
+
+## LoRa Bridge:
+- shares same hardware as LoRa Gateway, but different software
+- can be used to access switching modules or analog modules that are not directly coupled to the Controller module
+- in this use case the switching or analog modules are coupled via I2C to the LoRa Bridge 
+
+## LoRa inwall module
+- can be placed behind inwall switches or inwall power outlets
+- switches shutters, blinds, power outlets via LoRa
+- requires a LoRa gateway connected to the Controler module
+
 
