@@ -29,7 +29,7 @@ The Controller module is the module bus starting point because it provides 3,3V,
 
 ## Analog Module:
 - 16 AD channels
-- signal conditioning (Offset, Gain) for each channel with Rail-2-Rail OP Amps
+- signal conditioning (Offset, Amplification) for each channel with Rail-2-Rail OP Amps
 - channel 16 can be configured to read back sensor supply voltage
 - maximum of 2 analog modules per controller (I2C adressing constraint)
 
