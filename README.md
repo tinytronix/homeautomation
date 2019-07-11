@@ -25,6 +25,7 @@ alive and prevent damages to house installation.
 This is the common interface that every module needs. The module bus distributes 3,3V and 5V power supply and the
 I2C connection. Each module needs to implement a module bus input and a module bus output.
 So all DIN rail modules can be coupled and arbitrary extensions are possible.
+The Controller module is the module bus starting point because it provides 3,3V, 5V and is the I2C master.
 
 ## Analog Module:
 - 16 AD channels
