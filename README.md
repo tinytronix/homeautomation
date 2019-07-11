@@ -51,6 +51,7 @@ So all DIN rail modules can be coupled and arbitrary extensions are possible.
 - shares same hardware as LoRa Gateway, but different software
 - can be used to access switching modules or analog modules that are not directly coupled to the Controller module
 - in this use case the switching or analog modules are coupled via I2C to the LoRa Bridge 
+- The bridge implements a module bus starting point which provides 3,3V, 5V and I2C master to controll the connected modules
 
 ## LoRa inwall module
 - can be placed behind inwall switches or inwall power outlets
