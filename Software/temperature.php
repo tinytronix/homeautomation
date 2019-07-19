@@ -15,7 +15,7 @@
 	// y  -  the ADC values
 	$yNTC_10k_DinRail	= array(6, 183, 486, 820, 1184, 1577, 2000, 2430, 2865, 3291, 3707, 4073);	//ADC Digits
 	// x  - the temperatures in degree celsius
-  $xNTC_10k_DinRail	= array(90,  80,  74,  68,   62,   56,   50,   44,   38,   32,   26,   20);	//?C
+  	$xNTC_10k_DinRail	= array(90,  80,  74,  68,   62,   56,   50,   44,   38,   32,   26,   20);	//?C
 	
 	//create the sensor on channel T05 on analog module
 	$ambientTemperature	= new Sensor_ADC($Analogmodul_A01, 'T05',  $xNTC_10k_DinRail,    $yNTC_10k_DinRail);
