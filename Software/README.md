@@ -1,7 +1,7 @@
 Software example on how to control sensors, actors and send LoRa data. 
 
 ## How does it work:
-The two python scripts are UDP-servers that interface on 127.0.0.1 localhost to the php modules and to the hardware.
+The two python scripts under ./Controller/devicesrv.py and ./Controller/loragateway.py are UDP-servers that interface on 127.0.0.1 localhost to the php modules and to the hardware.
 Therefore the python scripts have to run in background permanently.<br>
 The php modules under php/class contain the sensor/actor control logic including error handling,
 automatic reconnect and much more basic functionality.<br>
