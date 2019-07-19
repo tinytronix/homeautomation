@@ -1,7 +1,7 @@
 Software example on how to control sensors, actors and send LoRa data. 
 
 ## How does it work:
-The two python scripts devicesrv.py and loragateway.py are UDP-servers that interface on 127.0.0.1 localhost to the php modules and to the hardware. The python scripts listen to UDP commands sent from the php modules, translate them to I2C. After completion of the I2C command an answer will be sent back to the php modules. The answer contains either:
+The two python scripts devicesrv.py and loragateway.py are UDP-servers that interface on 127.0.0.1 localhost to the php modules and to the hardware. The python scripts listen to UDP commands sent from the php modules, translate them to I2C. After completion of the I2C command an UDP answer will be sent back to the php modules. The answer contains either:
 - a value (in case of sensor)
 - an ACK or NAK in case of actor
 - lora data is handled exactly in the same manner
