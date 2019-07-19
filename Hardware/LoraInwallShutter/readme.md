@@ -4,8 +4,8 @@ Parameters:
 - Height is 22mm
 - extra deep inwall housings needed when placed behind wall switch/wall power outlet
 - Atmel ISP interface and 
-- a serial tx connector at the pcb edge.<br>
-- requires bootloader as explained here: https://www.arduino.cc/en/Tutorial/ArduinoToBreadboard
+- a serial tx connector at the pcb edge.
+- requires bootloader as explained here: https://www.arduino.cc/en/Tutorial/ArduinoToBreadboard<br>
 Top view:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/loraShutterModuleTop.JPG)
 Bottom view:
