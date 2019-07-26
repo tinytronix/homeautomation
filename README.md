@@ -50,6 +50,7 @@ The Controller module is the module bus starting point because it provides 3,3V,
 
 ## LoRa Bridge:
 - shares same hardware as LoRa Gateway, but different software
+- for the bridge version Jumper1 (JP1 - see schematic) needs to be open
 - can be used to access switching modules or analog modules that are not directly coupled to the Controller module
 - in this use case the switching or analog modules are coupled via I2C to the LoRa Bridge 
 - The bridge implements a module bus starting point which provides 3,3V, 5V and I2C master to controll the connected modules
