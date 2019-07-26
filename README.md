@@ -47,10 +47,12 @@ The Controller module is the module bus starting point because it provides 3,3V,
 - works on ISM Band at 433MHz or 868MHz
 - LoRa is a highly reliable wireless spread spectrum radio data transmission technique. See https://en.wikipedia.org/wiki/LoRa
 - This module creates a private LoRa home automation network. The software does not support LoRaWAN. 
+- shares same hardware as LoRa Bridge, but different software
+- for the Gateway version Jumper1 (JP1 - see schematic) needs to be open
 
 ## LoRa Bridge:
 - shares same hardware as LoRa Gateway, but different software
-- for the bridge version Jumper1 (JP1 - see schematic) needs to be open
+- for the Bridge version Jumper1 (JP1 - see schematic) needs to be closed
 - can be used to access switching modules or analog modules that are not directly coupled to the Controller module
 - in this use case the switching or analog modules are coupled via I2C to the LoRa Bridge 
 - The bridge implements a module bus starting point which provides 3,3V, 5V and I2C master to controll the connected modules
