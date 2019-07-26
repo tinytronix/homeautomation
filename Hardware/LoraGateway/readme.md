@@ -14,6 +14,6 @@ See https://en.wikipedia.org/wiki/LoRa
 The bootloader can be directly programmed from the Arduino IDE when the above settings were made.
 
 ## Hardware options
-This hardware can be used for a bridge module or a gateway module. For the Gateway version Jumper1 (JP1 - see schematic) needs to be open. Please see schematic for details.<br>
+This hardware can be used for a bridge module or a gateway module. For the Gateway version Jumper1 (JP1) needs to be open. Please see schematic for details.<br>
 Hardware:
 ![lt](https://raw.githubusercontent.com/tinytronix/SX126x/master/pcb/LoRa2.JPG)
