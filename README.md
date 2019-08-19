@@ -60,6 +60,8 @@ The Controller module is the module bus starting point because it provides 3,3V,
 ## LoRa inwall module
 - can be placed behind inwall switches or inwall power outlets
 - switches shutters, blinds, power outlets via LoRa
-- requires a LoRa gateway connected to the Controler module
+- requires a LoRa gateway connected to the Controller module
 
-
+## LoRa switched power outlet
+- switches 230V
+- requires a LoRa gateway connected to the Controller module
