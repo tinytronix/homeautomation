@@ -5,7 +5,9 @@ Parameters:
 - extra deep inwall housings needed when placed behind wall switch/wall power outlet
 - Atmel ISP interface and 
 - a serial tx connector at the pcb edge.
-- requires bootloader as explained here: https://www.arduino.cc/en/Tutorial/ArduinoToBreadboard<br>
+- requires bootloader as explained here: https://www.arduino.cc/en/Tutorial/ArduinoToBreadboard
+- remote controlled by the [Lora Gateway](https://github.com/tinytronix/homeautomation/tree/master/Hardware/LoraGateway)
+
 Top view:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/loraShutterModuleTop.JPG)
 Bottom view:
