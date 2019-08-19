@@ -42,7 +42,7 @@ The Controller module is the module bus starting point because it provides 3,3V,
 - three channels each up/down
 - software prevents switching up/down at the same time
 
-## LoRa Gateway:
+## LoRa Gateway ([here](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/readme.md)):
 - A module to forwards commands (I2C or RS232 at 3,3V/5V) from the Raspberry Controller module via wireless spread spectrum radio data transmission to modules located somewhere in the house or garden.
 - works on ISM Band at 433MHz or 868MHz
 - LoRa is a highly reliable wireless spread spectrum radio data transmission technique. See https://en.wikipedia.org/wiki/LoRa
@@ -50,14 +50,14 @@ The Controller module is the module bus starting point because it provides 3,3V,
 - shares same hardware as LoRa Bridge, but different software
 - for the Gateway version Jumper1 (JP1 - see schematic) needs to be open
 
-## LoRa Bridge:
+## LoRa Bridge ([here](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/readme.md)):
 - shares same hardware as LoRa Gateway, but different software
 - for the Bridge version Jumper1 (JP1 - see schematic) needs to be closed
 - can be used to access switching modules or analog modules that are not directly coupled to the Controller module
 - in this use case the switching or analog modules are coupled via I2C to the LoRa Bridge 
 - The bridge implements a module bus starting point which provides 3,3V, 5V and I2C master to controll the connected modules
 
-## LoRa inwall module
+## LoRa inwall module ([here](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraInwallShutter/readme.md))
 - can be placed behind inwall switches or inwall power outlets
 - switches shutters, blinds, power outlets via LoRa
 - requires a LoRa gateway connected to the Controller module
