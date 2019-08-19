@@ -3,7 +3,7 @@ LoRa is a wireless spread spectrum radio data transmission technique for ISM ban
 See https://en.wikipedia.org/wiki/LoRa
 
 ## Interfaces for sending and receiving LoRa data:
-1. RS232 at 3,3V or 5V
+1. serial UART at 3,3V or 5V 
 2. I2C
 
 ## Settings for Arduino IDE:
