@@ -62,6 +62,6 @@ The Controller module is the module bus starting point because it provides 3,3V,
 - switches shutters, blinds, power outlets via LoRa
 - requires a LoRa gateway connected to the Controller module
 
-## LoRa switched power outlet
+## LoRa switched power outlet [link](https://github.com/tinytronix/homeautomation/tree/master/Hardware/LoraPowerswitch)
 - switches 230V
 - requires a LoRa gateway connected to the Controller module
