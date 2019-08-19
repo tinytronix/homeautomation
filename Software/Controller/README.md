@@ -6,7 +6,7 @@ The two python scripts devicesrv.py and loragateway.py are UDP-servers that inte
 - an ACK or NAK in case of actor
 - lora data is handled exactly in the same manner
 
-Therefore the python scripts have to run in background permanently.<br>
+The python scripts have to run in background permanently.<br>
 The php modules under php/class contain the sensor/actor control logic including error handling,
 automatic reconnect and much more basic functionality.<br>
 
