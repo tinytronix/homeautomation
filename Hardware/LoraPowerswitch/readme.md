@@ -5,6 +5,7 @@ Parameters:
 - Atmel ISP interface and a serial tx connector at the pcb edge
 - requires bootloader as explained here: https://www.arduino.cc/en/Tutorial/ArduinoToBreadboard
 - remote controlled by the [Lora Gateway](https://github.com/tinytronix/homeautomation/tree/master/Hardware/LoraGateway)
+
 Complete device:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/loraSteckdose.JPG)
 open:
