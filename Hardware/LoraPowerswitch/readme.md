@@ -1,4 +1,4 @@
-This LoRa node module is for switching 230V on/off. 
+This LoRa node module is for switching 230V/2A on/off. 
 
 Parameters:
 - DRF1268 LoRa Module
