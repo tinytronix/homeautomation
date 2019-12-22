@@ -13,7 +13,7 @@ The Controller runs the software that contains the home automation logic which s
 - additional ISP interface at pcb edge
 
 ### Watchdog
-The backup safety processor serves as watchdog for the Raspberry PI. The watchdog is toggled by Raspberry devicesrv.py (https://github.com/tinytronix/homeautomation/blob/master/Software/devicesrv.py). If this program does not run on the Raspi, the backup safety processor disables I2C from Raspberry and takes control over the I2C bus. 
+The backup safety processor serves as watchdog for the Raspberry PI. The watchdog is toggled by Raspberry [devicesrv.py] (https://github.com/tinytronix/homeautomation/blob/master/Software/devicesrv.py). If this program does not run on the Raspi, the backup safety processor disables I2C from Raspberry and takes control over the I2C bus. 
 
 ### Comparision Controllermodul_A and Controllermodul_B
 The only difference is the backup safety processor. Controllermodul_A has a ATTiny85 and Controllermodul_B has a ATMega328.
