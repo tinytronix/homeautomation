@@ -1,8 +1,16 @@
-The Controller is based upon a Raspberry. All modules are connected via I2C to the Controller.
-The Controller runs the software that contains the home automation logic which switches Relais, reads
-sensors and so on.
+# Purpose
+This is the homeautomation "brain". The Controller is based upon a Raspberry. Arbitrary modules can be connected via I2C.
+The Controller runs the software that contains the home automation logic which switches Relais, reads sensors and so on.
 
-It as well has two Relais on its own and a RS232 and a 1wire interface.
+Controllermodul_A is deprecated. Please see the new hardware [Controllermodul_B](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_B)
+
+### Features
+- Raspberry B+ with Ethernet 
+- Atmel ATTiny85 as a backup safety processor
+- Watchdog
+- 2 Relais
+- 1-wire
+- UART interface 3.3V
 
 ### Watchdog
 The module needs a programmed watchdog controller. Else the Raspberry I2C interface is being disabled.
