@@ -1,5 +1,6 @@
 # Purpose
 This is the homeautomation "brain". The Controller is based upon a Raspberry. Arbitrary modules can be connected via I2C.
+The Controller runs the software that contains the home automation logic which switches Relais, reads sensors and so on.
 
 ### Features
 - Raspberry B+ with Ethernet 
