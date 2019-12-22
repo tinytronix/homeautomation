@@ -12,6 +12,12 @@ It contains ready to use gerber files for pcb production, part list and software
 - garden irrigation
 - ... and many more
 
+## maximum configuration
+- up to 88 Relais
+- up to 32 Temperature sensors
+- wireless LoRa devices, 1000m distance through walls or 3 floors reliable
+- development ongoing, max. configuration expandable as required
+
 ## Hardware Overview
 Upper row: Module bus to connect I2C and Power to each module.<br>
 Lower row left to right: Switching module, Analog module, Controller module:
