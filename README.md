@@ -10,12 +10,14 @@ The modules finally integrated in the fuse box:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltschrank2.JPG)
 
 ## Controller Module with watchdog:
-- Raspberry B+ (read only file system)
+- Raspberry B+ with Ethernet 
+- Atmel ATMega328 as a backup safety processor
+- ATMega328 is in-circuit programmable
+- Watchdog
 - 2 Relais
-- watchdog controller ATTiny85
-- 1wire
-- RS232
-- RTC
+- 1-wire
+- UART interface 3.3V
+- additional ISP interface at pcb edge
 
 The watchdog controller needs to be triggered by Raspi. If Raspi hangs or crashed, the watchdog controller
 gains access to the I2C Bus. It then can read AD values and switch Relais in order to keep vital functions
