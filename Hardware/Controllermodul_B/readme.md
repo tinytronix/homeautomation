@@ -4,11 +4,13 @@ This is the homeautomation "brain". The Controller is based upon a Raspberry. Ar
 ### Features
 - Raspberry B+ with Ethernet 
 - Atmel ATMega328 as a backup safety processor
+- ATMega328 is in-circuit programmable
 - Watchdog
 - 2 Relais
 - 1-wire
 - UART interface 3.3V
+- additional ISP interface at pcb edge
 
 ### Comparision Controllermodul_A and Controllermodul_B
 The only difference is the backup safety processor. Controllermodul_A has a ATTiny85 and Controllermodul_B has a ATMega328.
-With Controllermodul_B the ATMega328 can be flashed in-circuit by the Raspberry PI and it can trace debug strings to the Pi. Therefore (with Controllermodul_B) it is not necessary to dispount the device from the automation system when reprogramming the safety processor.
+With Controllermodul_B the ATMega328 can be flashed in-circuit by the Raspberry PI with avrdude and it can trace debug strings to the Pi. Therefore (with Controllermodul_B) it is not necessary to dispount the device from the automation system when reprogramming the safety processor.
