@@ -10,8 +10,5 @@ This is the homeautomation "brain". The Controller is based upon a Raspberry. Ar
 - UART interface 3.3V
 
 # Comparision Controllermodul_A and Controllermodul_B
-The only differnce is the backup safety processor. Controllermodul_A has a ATTiny85 and Controllermodul_B has a ATMega328
-which can be flashed in-circuit by the Raspberry PI. The ATMega can also trace debug strings to the Pi. 
-to the Controller. The Controller runs the software that contains the home automation logic which switches Relais, reads sensors and so on.
-
-It as well has two Relais on its own and a RS232 and a 1wire interface.
+The only difference is the backup safety processor. Controllermodul_A has a ATTiny85 and Controllermodul_B has a ATMega328.
+With Controllermodul_B the ATMega328 can be flashed in-circuit by the Raspberry PI and it can trace debug strings to the Pi. Therefore (with Controllermodul_B) it is not necessary to dispount the device from the automation system when reprogramming the safety processor.
