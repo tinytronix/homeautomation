@@ -51,7 +51,7 @@ The Controller module is the module bus starting point because it provides 3,3V,
 - signal conditioning (Offset, Amplification) for each channel with Rail-2-Rail OP Amps
 - channel 16 can be configured to read back sensor supply voltage
 - maximum of 2 analog modules per controller (I2C adressing constraint)
-
+ 
 ## Switching Module Typ A:
 - 11 Relais outputs 230VAC, 5A max.
 - maximum of 8 switching modules per controller (I2C adressing constraint) 
