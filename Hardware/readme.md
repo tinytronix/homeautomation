@@ -13,5 +13,5 @@ AKL 073-02 Fahrstuhlklemme, 2-pol<br>
 https://www.reichelt.de<br>
 
 ### Other parts
-see part list
+see [part list](https://github.com/tinytronix/homeautomation/blob/master/Hardware/partlist.csv)
 
