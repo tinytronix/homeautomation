@@ -1,7 +1,18 @@
-# Home Automation Device Overview
-An extensive and expandible home automation hardware and software system.
-Contains ready to use gerber files for pcb production, part list and software examples.
+# Purpose
+This is an extensive and expandible home automation hardware and software system.
+It contains ready to use gerber files for pcb production, part list and software examples.
 
+## Applications
+- solar systems
+- heating
+- alarm system
+- presence simulation
+- comfort functions
+- window blinds and shutters
+- garden irrigation
+- ... and many more
+
+## Hardware Overview
 Upper row: Module bus to connect I2C and Power to each module.<br>
 Lower row left to right: Switching module, Analog module, Controller module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
