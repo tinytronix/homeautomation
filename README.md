@@ -28,6 +28,7 @@ The modules finally integrated in the fuse box:
 
 ## Controller Module with watchdog:
 - Raspberry B+ with Ethernet 
+- I2C master
 - Atmel ATMega328 as a backup safety processor
 - ATMega328 is in-circuit programmable
 - Watchdog
