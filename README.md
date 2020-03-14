@@ -20,7 +20,7 @@ It contains ready to use gerber files for pcb production, part list and software
 - development ongoing, max. configuration expandable as required
 
 ## System overview (more [here](https://github.com/tinytronix/homeautomation/tree/master/Software/Controller))
-![lt](https://github.com/tinytronix/homeautomation/blob/master/Software/Controller/Architektur2.jpg)
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Software/Controller/Architektur.jpg)
 
 ## Hardware Overview ([more photos here](https://github.com/tinytronix/homeautomation/blob/master/Photos/readme.md))
 Upper row: Module bus to connect I2C and Power to each module.<br>
