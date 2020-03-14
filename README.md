@@ -4,19 +4,24 @@ It contains ready to use gerber files for pcb production, part list and software
 
 ## Applications
 - solar systems
-- heating
+- home heating
 - alarm system
 - presence simulation
 - comfort functions
 - window blinds and shutters
 - garden irrigation
+- include weather forecast for functions above
 - ... and many more
 
-## maximum configuration
+## Maximum configuration
 - up to 88 Relais
 - up to 32 Temperature sensors
 - wireless LoRa devices, 1000m distance through walls or 3 floors reliable
 - development ongoing, max. configuration expandable as required
+
+## System overview
+The system consists of both hardware and software components. Here you can get an idea how everything works together.
+Please see ([this](https://github.com/tinytronix/homeautomation/blob/master/Software/Controller/Architektur.jpg)).
 
 ## Hardware Overview ([photos of all hardware here](https://github.com/tinytronix/homeautomation/blob/master/Photos/readme.md))
 Upper row: Module bus to connect I2C and Power to each module.<br>
