@@ -12,12 +12,12 @@ Mounted and pluged all together:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/loraShutterModuleTop.JPG)
 <br>Inwall LoRa shutter module bottom view
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/loraShutterModuleBottom.JPG)
-<br>I2C Module Bus connector
-![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/I2CBus.JPG)
-<br>I2C Module Bus connector
-![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/I2CConnector.JPG)
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/LoRa2.JPG)
 <br>LoRa Wall plug
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/loraSteckdoseInnen.JPG)
 <br>LoRa Wall plug mounted
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/loraSteckdose.JPG)
+<br>I2C Module Bus connector
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/I2CBus.JPG)
+<br>I2C Module Bus connector
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/I2CConnector.JPG)
