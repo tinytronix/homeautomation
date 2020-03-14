@@ -12,6 +12,7 @@ automatic reconnect and much more basic functionality.<br>
 
 The php program test.php and temperature.php contain examples on how to use the php classes for switching actors and reading sensors.
 
+[lt!](https://github.com/tinytronix/homeautomation/blob/master/Software/Controller/Architektur.jpg)
 ## How to start:
 1. Activate the I2C interface on the Raspberry
 2. When using LoRa communication set I2C on Raspberry to 25kHz (RPi I2C stretching bug!!!)
