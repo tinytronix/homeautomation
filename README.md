@@ -19,7 +19,7 @@ It contains ready to use gerber files for pcb production, part list and software
 - wireless LoRa devices, 1000m distance through walls or 3 floors reliable
 - development ongoing, max. configuration expandable as required
 
-## System overview
+## System overview (more ([here](https://github.com/tinytronix/homeautomation/tree/master/Software/Controller)))
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Software/Controller/Architektur.jpg)
 
 ## Hardware Overview ([photos of all hardware here](https://github.com/tinytronix/homeautomation/blob/master/Photos/readme.md))
