@@ -9,7 +9,7 @@ Mounted and pluged all together:
 <br>Switching module Type A
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltmodul_A.JPG)
 <br>Switching module Type B
-![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltmodul_A.JPG)
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltmodul_B.JPG)
 <br>Inwall LoRa shutter module
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/loraShutterModuleTop.JPG)
 <br>I2C Module Bus connector
