@@ -20,8 +20,7 @@ It contains ready to use gerber files for pcb production, part list and software
 - development ongoing, max. configuration expandable as required
 
 ## System overview
-The system consists of both hardware and software components. Here you can get an idea how everything works together.
-Please see ([this](https://github.com/tinytronix/homeautomation/blob/master/Software/Controller/Architektur.jpg)).
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Software/Controller/Architektur.jpg)
 
 ## Hardware Overview ([photos of all hardware here](https://github.com/tinytronix/homeautomation/blob/master/Photos/readme.md))
 Upper row: Module bus to connect I2C and Power to each module.<br>
