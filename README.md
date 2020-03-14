@@ -72,7 +72,7 @@ The Controller module is the module bus starting point because it provides 3,3V,
 - LoRa is a highly reliable wireless spread spectrum radio data transmission technique. See https://en.wikipedia.org/wiki/LoRa
 - This module creates a private LoRa home automation network. The software does not support LoRaWAN. 
 - shares same hardware as LoRa Bridge, but different software
-- for the Gateway version Jumper1 (JP1 - see ([schematic](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/Schematic.pdf)) needs to be open
+- for the Gateway version Jumper1 (JP1) needs to be open, see [schematic](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/Schematic.pdf) 
 
 ## LoRa Bridge ([here](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/readme.md)):
 - shares same hardware as LoRa Gateway, but different software
