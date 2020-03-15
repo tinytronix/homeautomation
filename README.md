@@ -16,8 +16,9 @@ It contains ready to use gerber files for pcb production, part list and software
 
 ## Maximum configuration
 - up to 88 Relais
-- up to 32 Temperature sensors
-- wireless LoRa devices, 1000m distance through walls or 3 floors reliable
+- up to 32 analog Temperature sensors
+- up to 12 onewire sensors
+- thousands ofwireless LoRa devices, 1000m distance through walls or 3 floors reliable
 - development ongoing, max. configuration expandable as required
 
 ## System overview (more [here](https://github.com/tinytronix/homeautomation/tree/master/Software/Controller))
