@@ -11,7 +11,7 @@ It contains ready to use gerber files for pcb production, part list and software
 - comfort functions
 - window blinds and shutters
 - garden irrigation
-- include weather forecast for functions above
+- consider weather forecast for any control as appropriate 
 - ... and many more
 
 ## Maximum configuration
