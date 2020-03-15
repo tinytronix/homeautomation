@@ -5,6 +5,7 @@ It contains ready to use gerber files for pcb production, part list and software
 ## Applications
 - solar systems
 - home heating
+- home display to show temperatures, system states, warnings and many more
 - alarm system
 - presence simulation
 - comfort functions
