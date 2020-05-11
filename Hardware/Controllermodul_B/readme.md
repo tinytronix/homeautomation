@@ -7,6 +7,7 @@ The Controller runs the software that contains the home automation logic which s
 - Atmel ATMega328 as a backup safety processor
 - ATMega328 is in-circuit programmable
 - Watchdog
+- ATMega328 acts as I2C master instead of Raspberry when the Pi hangs or crashes
 - 2 Relais
 - 1-wire
 - UART interface 3.3V
@@ -17,7 +18,7 @@ The backup safety processor serves as watchdog for the Raspberry PI. The watchdo
 
 ### Comparision Controllermodul_A and Controllermodul_B
 The only difference is the backup safety processor. Controllermodul_A has a ATTiny85 and Controllermodul_B has a ATMega328.
-With Controllermodul_B the ATMega328 can be flashed in-circuit by the Raspberry PI with avrdude and it can trace debug strings to the Pi. Therefore (with Controllermodul_B) it is not necessary to dispount the device from the automation system when reprogramming the safety processor.
+With Controllermodul_B the ATMega328 can be flashed in-circuit by the Raspberry PI with avrdude and it can trace debug strings to the Pi. Therefore (with Controllermodul_B) it is not necessary to dismount the device from the automation system when reprogramming the safety processor.
 
 ### Software compatibility Controllermodul_A and Controllermodul_B
-Software developed for Controllermodul_A does run on Controllermodul_B without modification.
+Software developed for Raspberry on Controllermodul_A does run on Controllermodul_B without modification.
