@@ -68,6 +68,11 @@ The Controller module is the module bus starting point because it provides 3,3V,
 - three channels each up/down
 - software prevents switching up/down at the same time
 
+## Digital Input Module Typ A
+- 5x mains detection 230V
+- 1x Counter Input 5V logic level
+- mains detection inputs can be changed to input 5V logic level as well
+
 ## LoRa Gateway ([here](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/readme.md)):
 - A module to forwards commands (I2C or RS232 at 3,3V/5V) from the Raspberry Controller module via wireless spread spectrum radio data transmission to modules located somewhere in the house or garden.
 - works on ISM Band at 433MHz or 868MHz
