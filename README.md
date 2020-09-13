@@ -70,7 +70,7 @@ The Controller module is the module bus starting point because it provides 3,3V,
 
 ## Digital Input Module Typ A ([here](https://github.com/tinytronix/homeautomation/blob/master/Photos/Digitalmodul_A.JPG))
 - 5x mains detection 230V
-- 1x Counter Input 5V logic level
+- 1x Counter Input 5V logic level (interrupt triggered)
 - mains detection inputs can be changed to input 5V logic level as well
 
 ## LoRa Gateway ([here](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/readme.md)):
