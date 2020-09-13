@@ -26,3 +26,6 @@ The php program test.php and temperature.php contain examples on how to use the 
 
 ## Watchdog
 The controller module needs a programmed watchdog controller (https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_A/WatchdogController). Else the Raspberry I2C interface is being disabled. The watchdog is toggled by Raspberry devicesrv.py (function def watchdog_thread). If this program does not run on the Raspi, the watchdog controller disables I2C from Raspberry and takes control over the I2C bus.
+
+## Information
+The LoRa bridge module can act as a controller as well. All modules can be connected to the LoRa bridge module without any modifications.
