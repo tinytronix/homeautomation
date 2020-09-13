@@ -1,6 +1,6 @@
 # Purpose
 This is an extensive and expandible home automation hardware and software system.
-It contains ready to use gerber files for pcb production, part list and software examples.
+It contains ready to use gerber files for pcb production, schematics, part list and software examples.
 
 ## Applications
 - solar systems
