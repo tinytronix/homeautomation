@@ -61,20 +61,24 @@ The Controller module is the module bus starting point because it provides 3,3V,
 - signal conditioning (Offset, Amplification) for each channel with Rail-2-Rail OP Amps
 - channel 16 can be configured to read back sensor supply voltage
 - maximum of 2 analog modules per controller (I2C adressing constraint)
+- can easily be connected to Controller Module B or Lora Bridge without any modifications.
  
 ## Switching Module Typ A:
 - 11 Relais outputs 230VAC, 5A max.
 - maximum of 8 switching modules per controller (I2C adressing constraint) 
+- can easily be connected to Controller Module B or Lora Bridge without any modifications.
 
 ## Switching Module Typ B:
 - can control shutters and window blinds
 - three channels each up/down
 - software prevents switching up/down at the same time
+- can easily be connected to Controller Module B or Lora Bridge without any modifications.
 
 ## Digital Input Module Typ A ([here](https://github.com/tinytronix/homeautomation/blob/master/Photos/Digitalmodul_A.JPG))
 - 5x mains detection 230V
 - 1x Counter Input 5V logic level (interrupt triggered)
 - mains detection inputs can be changed to input 5V logic level as well
+- can easily be connected to Controller Module B or Lora Bridge without any modifications.
 
 ## LoRa Gateway ([here](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/readme.md)):
 - A module to forwards commands (I2C or RS232 at 3,3V/5V) from the Raspberry Controller module via wireless spread spectrum radio data transmission to modules located somewhere in the house or garden.
@@ -83,6 +87,7 @@ The Controller module is the module bus starting point because it provides 3,3V,
 - This module creates a private LoRa home automation network. The software does not support LoRaWAN. 
 - shares same hardware as LoRa Bridge, but different software
 - for the Gateway version Jumper1 (JP1) needs to be open, see [schematic](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/Schematic.pdf) 
+- can easily be connected to Controller Module B
 
 ## LoRa Bridge ([here](https://github.com/tinytronix/homeautomation/blob/master/Hardware/LoraGateway/readme.md)):
 - shares same hardware as LoRa Gateway, but different software
