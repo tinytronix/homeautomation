@@ -3,7 +3,7 @@ This is the homeautomation "brain". The Controller is based upon a Raspberry. Ar
 The Controller runs the software that contains the home automation logic which switches Relais, reads sensors and so on.
 
 ### Features
-- Raspberry B+ with Ethernet 
+- Raspberry B+ with Ethernet and readonly SD card
 - Atmel ATMega328 as a backup safety processor
 - ATMega328 is in-circuit programmable
 - Watchdog
