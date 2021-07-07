@@ -2,11 +2,16 @@
 #include "build_defs.h"
 #include <Wire.h>
 
+
 //-------------------------------------------------------------------------------------
+// Dieser Arduino Sketch enthält die Firmware für das Lora Gateway. Das Gateway ist per
+// I2C mit dem Raspi verbunden und nimmt von diesem Befehle entgegen und versendet sie dann.
 //
 // Infos fuer die Arduino IDE und fuer das Flashen des Bootloaders
 // Board: Arduino Pro or Pro Mini
 // Processor: ATMega328P (8MHz, 3,3V)
+//
+// Libraries: Dieser Sketch nutzt die Libraries, welche in der Datei libraries.zip enthalten sind
 //
 //-------------------------------------------------------------------------------------
 
