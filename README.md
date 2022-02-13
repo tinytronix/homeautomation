@@ -52,13 +52,14 @@ alive and prevent damages to house installation.
 All modules can bei either controlled by Controller Module B (Raspberry) or Lora Bridge (ATMega328)
 The interface to all modules is the same: I2C. Any module can easily be connected to Controller Module B or Lora Bridge without any modifications.
 
-## ESP07 (ESP8266) Controller MOdule
+## ESP07 (ESP8266) Wifi Controller Module
 - ESP07
 - I2C master or slave
 - 1 Relais
 - 1-wire
 
 This module can be used instead of the raspberry controller. It can be connected to any of the sensor actor modules listed below.
+The ESP07 Wifi Module can also be used as a I2C slave.
 
 ## Module Bus
 This is the common interface that every module needs. The module bus distributes 3,3V and 5V power supply and the
