@@ -4,7 +4,7 @@ It contains ready to use gerber files for pcb production, schematics, part list 
 
 ## Audience
 The hardware and software is proven in use. If correctly assembled it will work. You should know about SMD soldering, be able to read
-schematics and understand software. All software is for raspberry programmed in python and php. All other software is Arduino compatible. Microcontroller is alwyas the ATMega328 or ESP8266 and can be flashed via Atmel ISP interface or UART. If you read the software examples you should have a good idea
+schematics and understand software. Most software is for raspberry programmed in python and php. All other software is Arduino compatible. Microcontroller is always the ATMega328 or ESP8266 and can be flashed via Atmel ISP interface or UART. If you read the software examples you should have a good idea
 how everything works together. Software exampes are low level. The system can work stand-alone but you may connect to any home automation system.
 
 ## Applications
