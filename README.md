@@ -34,7 +34,7 @@ Lower row left to right: Switching module, Analog module, Controller module:
 The modules finally integrated in the fuse box:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltschrank2.JPG)
 
-## Controller Module with watchdog:
+## Raspberry Controller Module with watchdog:
 - Raspberry B+ with Ethernet 
 - I2C master
 - Atmel ATMega328 as a backup safety processor
@@ -51,6 +51,14 @@ alive and prevent damages to house installation.
 
 All modules can bei either controlled by Controller Module B (Raspberry) or Lora Bridge (ATMega328)
 The interface to all modules is the same: I2C. Any module can easily be connected to Controller Module B or Lora Bridge without any modifications.
+
+## ESP07 (ESP8266) Controller MOdule
+- ESP07
+- I2C master or slave
+- 1 Relais
+- 1-wire
+
+This module can be used instead of the raspberry controller. It can be connected to any of the sensor actor modules listed below.
 
 ## Module Bus
 This is the common interface that every module needs. The module bus distributes 3,3V and 5V power supply and the
