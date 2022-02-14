@@ -36,9 +36,6 @@ Upper row: Module bus to connect I2C and Power to each module.<br>
 Lower row left to right: Switching module, Analog module, Controller module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
 
-The modules finally integrated in the fuse box:
-![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltschrank2.JPG)
-
 ## Raspberry Controller Module with watchdog ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_B)):
 - Raspberry B+ with Ethernet 
 - I2C master
