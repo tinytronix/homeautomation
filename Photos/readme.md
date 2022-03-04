@@ -1,6 +1,5 @@
-Mounted and pluged all together:
-![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Schaltschrank2.JPG)
-<br>Controller Module:
+
+Controller Module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Controller_TypA.JPG)
 <br>Modules open:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
