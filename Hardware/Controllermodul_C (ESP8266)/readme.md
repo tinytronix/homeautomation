@@ -1,3 +1,5 @@
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ESP07.jpg)
+
 # Purpose
 This is the homeautomation "brain". The Controller is based upon a ESP8266 (ESP07). Arbitrary modules can be connected via I2C.
 The Controller runs the software that contains the home automation logic which switches Relais, reads sensors and so on.
