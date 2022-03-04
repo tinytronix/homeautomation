@@ -4,6 +4,8 @@ Mounted and pluged all together:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Controller_TypA.JPG)
 <br>Modules open:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
+<br>ESP07 (ESP8266) Controller Module:
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ESP07.jpg)
 <br>Analog module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Analogmodul_TypA.JPG)
 <br>Switching module Type A
