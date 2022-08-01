@@ -9,7 +9,7 @@ how everything works together. Software exampes are low level. The system can wo
 
 ## Failsafe
 This project mainly uses a raspberry pi for reading sensors switching actors and controlling things. The SD card is read only, so the setup is as reliable as possible. But in the event of raspberry failure (crash, hardware defect) there is a Atmel ATMega328 backup processor which then takes control
-over the I2C bus. It runs a safety program which prevents house installation from serious damages.
+over the I2C bus. It runs a safety program which prevents house installation at least from serious damages.
 
 ## Applications
 - solar systems
