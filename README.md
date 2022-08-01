@@ -7,6 +7,10 @@ The hardware and software is proven in use. If correctly assembled it will work.
 schematics and understand software. Most software is for raspberry programmed in python and php. All other software is Arduino compatible. Microcontroller is always the ATMega328 or ESP8266 and can be flashed via Atmel ISP interface or UART. If you read the software examples you should have a good idea
 how everything works together. Software exampes are low level. The system can work stand-alone but you may connect to any home automation system.
 
+## Failsafe
+This project mainly uses a raspberry pi for reading sensors switching actors and controlling things. The SD card is read only, so the setup is as reliable as possible. But in the event of raspberry failure (crash, hardware defect) there is a Atmel ATMega328 backup processor which then takes control
+over the I2C bus. It runs a safety program which prevents house installation from serious damages.
+
 ## Applications
 - solar systems
 - home heating
@@ -33,7 +37,7 @@ how everything works together. Software exampes are low level. The system can wo
 
 ## Hardware Overview ([more photos here](https://github.com/tinytronix/homeautomation/blob/master/Photos/readme.md))
 Upper row: Module bus to connect I2C and Power to each module.<br>
-Lower row left to right: Switching module, Analog module, Controller module:
+Lower row left to right: Switching module, Analog module, Controller module with raspberry and fallback microcontroller:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ModulesOpen.jpg)
 
 ## Raspberry Controller Module with watchdog ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_B)):
