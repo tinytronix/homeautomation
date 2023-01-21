@@ -6,6 +6,7 @@ The Controller runs the software that contains the home automation logic which s
 
 ### Features
 - ESP07
+- programming via serial uart or wlan
 - 1 Relais
 - 1-wire
 - I2C Interface
