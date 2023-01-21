@@ -23,9 +23,14 @@ the Raspberry Controller or ESP Wifi Module.
 
 ### Arduino installation prerequsites
 Install the athena bootloader in your Arduino IDE (https://github.com/embeddedartistry/athena-bootloader)
-### Arduino settings
 set board: "Arduino Uno"
 set version: "Standard Wiznet w/ Wiznet 5500"
+burn bootloader file athena_atmega328_w5500.hex
 
+### flashing software
+After flshing the tftp bootloader you can reach the bootloader at 192.168.1.128
 
+### Attention
+The athena bootloader uses the first 74 bytes of the eeprom. Take care if your application also needs specific eeprom access.
+For details please read https://github.com/embeddedartistry/athena-bootloader.
  
