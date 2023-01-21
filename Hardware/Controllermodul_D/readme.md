@@ -39,4 +39,6 @@ After flashing the tftp bootloader you can reach the bootloader at 192.168.1.128
 The athena bootloader uses the first 74 bytes of the eeprom. Take care if your application also needs specific eeprom access.
 For details please read https://github.com/embeddedartistry/athena-bootloader.
  
+### Picture with housing
+Remark: The I2C connector breakout on the side of the housing was not finished when taking this picture. In the top of the housing is the same [bus interface](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Modulbus) like any other of my modules. 
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ControllerC3.jpg)
