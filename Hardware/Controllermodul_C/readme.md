@@ -9,6 +9,8 @@ The Controller runs the software that contains the home automation logic which s
 - 1 Relais
 - 1-wire
 - I2C Interface
+- 1 PWM output
+- connector for two status LEDs
 
 ### Comparison to Controllermodul_B
 This module can be used instead of the raspberry controller. It can be connected to any of the sensor actor modules just like the Raspberry Controller.
