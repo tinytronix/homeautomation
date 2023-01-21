@@ -63,9 +63,22 @@ The interface to all modules is the same: I2C. Any module can easily be connecte
 - I2C master or slave
 - 1 Relais
 - 1-wire
+- 1 PWM output
 
 This module can be used instead of the raspberry controller. It can be connected to any of the sensor actor modules listed below.
 The ESP07 Wifi Module can also be used as a I2C slave.
+
+## ATMega328 Ethernet Controller Module ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_D))
+- ATMEga328 Microcontroller 5V/16MHz
+- WIZnet W5500 Ethernet controller with hardwired TCP/IP/UDP/DHCP protocol support
+- I2C master or slave
+- 1 Relais
+- 1-wire
+- 1 PWM output
+- 1 digital input
+
+This module can be used instead of the raspberry controller. It can be connected to any of the sensor actor modules listed below.
+The Ethernet Controller Module can also be used as a I2C slave. Ethernet protocols are implemented in the W5500 hardware. 
 
 ## Module Bus
 This is the common interface that every module needs. The module bus distributes 3,3V and 5V power supply and the
