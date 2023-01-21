@@ -32,8 +32,8 @@ burn bootloader file athena_atmega328_w5500.hex
 
 ### flashing software
 After flashing the tftp bootloader you can reach the bootloader at 192.168.1.128.
-The bootloader is [here](https://github.com/tinytronix/homeautomation/blob/master/Software/Controllermodul_D/athena_atmega328_w5500.hex)
-You may use this bash script for flashing: [tftpflash.sh](https://github.com/tinytronix/homeautomation/blob/master/Software/Controllermodul_D/tftpflash.sh)
+</br>The bootloader is [here](https://github.com/tinytronix/homeautomation/blob/master/Software/Controllermodul_D/athena_atmega328_w5500.hex)
+</br>You may use this bash script for flashing: [tftpflash.sh](https://github.com/tinytronix/homeautomation/blob/master/Software/Controllermodul_D/tftpflash.sh)
 
 ### Attention
 The athena bootloader uses the first 74 bytes of the eeprom. Take care if your application also needs specific eeprom access.
