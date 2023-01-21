@@ -7,8 +7,10 @@ the same layout as all the other controller modules so it can interface to all s
 bridge: Receive I2C commands from the raspberry controller module and forward to the sensor or actor modules.
 
 ### Features
-- ATMEga328 Microcontroller 5V/16MHz
+- compatible to Arduino Uno 
+- ATMega328 Microcontroller 5V/16MHz
 - WIZnet W5500 Ethernet controller with hardwired TCP/IP/UDP/DHCP protocol support
+- Software update via ethernet tftp
 - I2C master or slave
 - 1 Relais
 - 1-wire
@@ -17,4 +19,13 @@ bridge: Receive I2C commands from the raspberry controller module and forward to
 
 ### Comparison to Controllermodul_B and ESP07 Wifi Module
 This module can be used instead of the raspberry controller or ESP07 Wifi Module. It can be connected to any of the sensor actor modules just like 
-the Raspberry Controller or ESP Wifi MOdule.
+the Raspberry Controller or ESP Wifi Module.
+
+### Arduino installation prerequsites
+Install the athena bootloader in your Arduino IDE (https://github.com/embeddedartistry/athena-bootloader)
+### Arduino settings
+set board: "Arduino Uno"
+set version: "Standard Wiznet w/ Wiznet 5500"
+
+
+ 
