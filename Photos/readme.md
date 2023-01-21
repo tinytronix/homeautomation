@@ -7,6 +7,8 @@ Controller Module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ESP07.jpg)
 <br>ATMega328 Controller Module with ethernet:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ControllerC1.jpg)
+<br>ATMega328 Controller Module with ethernet with housing:
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ControllerC3.jpg)
 <br>Analog module:
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/Analogmodul_TypA.JPG)
 <br>Switching module Type A
