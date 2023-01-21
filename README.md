@@ -58,7 +58,7 @@ alive and prevent damages to house installation.
 All modules can bei either controlled by Controller Module B (Raspberry) or Lora Bridge (ATMega328) or Wifi Controller,
 The interface to all modules is the same: I2C. Any module can easily be connected to Controller Module B or Lora Bridge without any modifications.
 
-## ESP07 (ESP8266) Wifi Controller Module ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_C)
+## ESP07 (ESP8266) Wifi Controller Module ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_C))
 - ESP07
 - I2C master or slave
 - 1 Relais
@@ -72,7 +72,9 @@ This is the common interface that every module needs. The module bus distributes
 I2C connection. Each module needs to implement a module bus input and a module bus output.
 So all DIN rail modules can be coupled and arbitrary extensions are possible.
 The Controller module is the module bus starting point because it provides 3,3V, 5V and is the I2C master.
- 
+
+## ATMega328 Ethernet Controller Module ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_C)
+
 ## Analog Module:
 - 16 AD channels
 - signal conditioning (Offset, Amplification) for each channel with Rail-2-Rail OP Amps
