@@ -60,6 +60,7 @@ The interface to all modules is the same: I2C. Any module can easily be connecte
 
 ## ESP07 (ESP8266) Wifi Controller Module ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_C))
 - ESP07
+- programming via serial uart or wlan
 - I2C master or slave
 - 1 Relais
 - 1-wire
@@ -71,12 +72,16 @@ The ESP07 Wifi Module can also be used as a I2C slave.
 ## ATMega328 Ethernet Controller Module ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_D))
 - ATMEga328 Microcontroller 5V/16MHz
 - WIZnet W5500 Ethernet controller with hardwired TCP/IP/UDP/DHCP protocol support
+- compatible to Arduino Uno
+- programming via ISP interface
+- trace interface (serial uart)
 - Software update via ethernet tftp
 - I2C master or slave
 - 1 Relais
 - 1-wire
 - 1 PWM output
 - 1 digital input
+- connector for two status LEDs
 
 This module can be used instead of the raspberry controller. It can be connected to any of the sensor actor modules listed below.
 The Ethernet Controller Module can also be used as a I2C slave. Ethernet protocols are implemented in the W5500 hardware. 
