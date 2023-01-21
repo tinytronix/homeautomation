@@ -1,4 +1,4 @@
-![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ControllerC2.jpg)
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ControllerC1.jpg)
 
 # Purpose
 This module can be used as a homeautomation "brain". The Controller is based upon a ATMega328 with a WIZnet W5500 ethernet controller. The ethernet controller implements TCP/IP/DHCP/UDP 
@@ -39,3 +39,4 @@ After flashing the tftp bootloader you can reach the bootloader at 192.168.1.128
 The athena bootloader uses the first 74 bytes of the eeprom. Take care if your application also needs specific eeprom access.
 For details please read https://github.com/embeddedartistry/athena-bootloader.
  
+![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ControllerC3.jpg)
