@@ -2,9 +2,13 @@ This is a module that extends the home automation to speak LoRa (not LoRaWAN).
 LoRa is a wireless spread spectrum radio data transmission technique for ISM band at 868MHz or 433MHz.
 See https://en.wikipedia.org/wiki/LoRa
 
-## Interfaces for sending and receiving LoRa data:
-1. serial UART at 3,3V or 5V 
-2. I2C
+## Features:
+- Lora Semtec SX1262 or SX1268
+- serial UART at 3,3V or 5V 
+- I2C
+- connector for two status LEDs
+- 1 Relais
+- 1-wire interface
 
 ## Settings for Arduino IDE:
 - The uC is an ATMega328, 8MHz, 3,3V. The board can be programmed with Arduino IDE.
