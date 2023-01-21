@@ -11,6 +11,8 @@ the same layout as all the other controller modules so it can interface to all s
 ### Features
 - compatible to Arduino Uno 
 - ATMega328 Microcontroller 5V/16MHz
+- programming via ISP interface
+- trace interface (serial uart)
 - WIZnet W5500 Ethernet controller with hardwired TCP/IP/UDP/DHCP protocol support
 - Software update via ethernet tftp
 - I2C master or slave
