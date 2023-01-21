@@ -1,7 +1,7 @@
 ![lt](https://github.com/tinytronix/homeautomation/blob/master/Photos/ControllerC1.jpg)
 
 # Purpose
-This module can be used as a homeautomation "brain". The Controller is based upon a ATMega328 with a WIZnet W5500 ethernet controller. The ethernet controller implements TCP/IP/DHCP/UDP 
+This module can be used as a homeautomation "brain" for my [sensors and actors](https://github.com/tinytronix/homeautomation). The Controller is based upon a ATMega328 with a WIZnet W5500 ethernet controller. The ethernet controller implements TCP/IP/DHCP/UDP 
 in hardware and ist connected to the ATMega328 via SPI. Arbitrary modules can be connected via I2C on the side of the housing. The I2C interface has
 the same layout as all the other controller modules so it can interface to all sensor actor modules in a compatible way. The module may as well be used as a bridge: Receive I2C commands via ethernet from the raspberry controller module and forward to the sensor or actor modules.
 </br>[Schematic](https://github.com/tinytronix/homeautomation/blob/master/Hardware/Controllermodul_D/Schematic.pdf)
