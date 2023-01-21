@@ -71,6 +71,7 @@ The ESP07 Wifi Module can also be used as a I2C slave.
 ## ATMega328 Ethernet Controller Module ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_D))
 - ATMEga328 Microcontroller 5V/16MHz
 - WIZnet W5500 Ethernet controller with hardwired TCP/IP/UDP/DHCP protocol support
+- Software update via ethernet tftp
 - I2C master or slave
 - 1 Relais
 - 1-wire
