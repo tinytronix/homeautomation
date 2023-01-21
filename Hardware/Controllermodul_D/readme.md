@@ -21,7 +21,7 @@ bridge: Receive I2C commands from the raspberry controller module and forward to
 - 1 digital input
 - connector for two status LEDs
 
-### Comparison to Controllermodul_B and ESP07 Wifi Module
+### Comparison to Controllermodul_B (raspberry based) and ESP07 Wifi Module
 This module can be used instead of the raspberry controller or ESP07 Wifi Module. It can be connected to any of the sensor actor modules just like 
 the Raspberry Controller or ESP Wifi Module.
 
