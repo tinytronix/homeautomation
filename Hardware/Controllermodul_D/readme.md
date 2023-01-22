@@ -8,7 +8,7 @@ the same layout as all the other controller modules so it can interface to all s
 </br>[Gerber files](https://github.com/tinytronix/homeautomation/blob/master/Hardware/Controllermodul_D/Gerber.zip)
 </br>[Housing](https://github.com/tinytronix/homeautomation/blob/master/Hardware/HUT-C_DB-DE.pdf)
 #### Information regarding schematic and gerber:
-As of 21st January 2023 there is an error in the schematic: The SPI line from the WS5500 to the ATMega328 (MISO) does barely (imho not reliably) meet the voltage level specification. The ATmega328 sees 3.3V on the MISO line and minimum high level @5V is 0.6*Vcc=3V. It seems to work as it is now. But I plan to integrate a BSS138 based level shifter to set the MISO line from 3.3V to 5V to make it more reliable. (thank to the folks at https://www.mikrocontroller.net!!)
+As of 21st January 2023 there is a weakness in the schematic: The SPI line from the WS5500 to the ATMega328 (MISO) does barely (imho not reliably) meet the voltage level specification. The ATmega328 sees 3.3V on the MISO line and minimum high level @5V is 0.6*Vcc=3V. It seems to work as it is now. But I plan to integrate a BSS138 based level shifter to set the MISO line from 3.3V to 5V to make it more reliable. (thank to the folks at https://www.mikrocontroller.net!!)
 
 ### Features
 - compatible to Arduino Uno 
