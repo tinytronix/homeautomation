@@ -92,8 +92,6 @@ I2C connection. Each module needs to implement a module bus input and a module b
 So all DIN rail modules can be coupled and arbitrary extensions are possible.
 The Controller module is the module bus starting point because it provides 3,3V, 5V and is the I2C master.
 
-## ATMega328 Ethernet Controller Module ([here](https://github.com/tinytronix/homeautomation/tree/master/Hardware/Controllermodul_C)
-
 ## Analog Module:
 - 16 AD channels
 - signal conditioning (Offset, Amplification) for each channel with Rail-2-Rail OP Amps
